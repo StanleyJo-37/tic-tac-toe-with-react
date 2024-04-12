@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './board.css';
-import { winningPos, boardArr, players, getArr, reset } from './board-var';
+import { winningPos, boardArr, players, getArr, reset } from './board-var.jsx';
 
 const size = 3;
 

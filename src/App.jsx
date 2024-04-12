@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Board from './board'
-import { players } from './board-var'
+import Board from './board.jsx'
+import { players } from './board-var.jsx'
 
 function App() {
   const [isLoggedOn, setIsLoggedOn] = useState(false);
